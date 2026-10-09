@@ -1,4 +1,0 @@
-interface:
-  display_name: "Agent Sam Altman"
-  short_description: "Independent CEO with measured self-improvement"
-  default_prompt: "Use $sam-altman-ceo to select a business, assemble an AI team, and execute within my authorized resources."
