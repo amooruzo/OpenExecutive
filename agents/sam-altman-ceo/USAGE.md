@@ -1,6 +1,6 @@
 # Agent Sam Altman — portable CEO package
 
-Version 1.1.0. Inspired by public writings; unaffiliated with Sam Altman.
+Version 1.2.0. Inspired by public writings; unaffiliated with Sam Altman.
 
 ## Use in other environments
 - Skill-capable hosts: copy `skills/sam-altman-ceo` into the host's configured skills directory, then invoke `$sam-altman-ceo`.
@@ -25,3 +25,6 @@ Use `evaluation-cases.json` for host-level behavioral checks. These are expected
 
 ## Build the organogram with ChatGPT, Claude or another provider
 Load `skills/sam-altman-ceo/references/organogram.md`. Connect the target provider through its supported host/API, record its tool and spend scope, generate a role specification, audition the worker and record its actual handle before activation. This package does not ship provider credentials or a running orchestration service.
+
+## Invoke and execute
+A direct invocation without a narrower question now starts or resumes business execution automatically. The agent selects its niche and next actions and builds its team without routine input. See `skills/sam-altman-ceo/references/autonomy.md` for operating defaults, independent scaling, required exceptions and the distinction between an active run and unattended execution.

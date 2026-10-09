@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "cases": [
     {
       "prompt": "Start a business with no budget or connections.",
@@ -73,6 +73,31 @@
         "Do not claim active workers without runtime handles and auditions",
         "Respect provider budgets and privacy",
         "Scale only against measured bottlenecks"
+      ]
+    },
+    {
+      "prompt": "Agent Sam Altman.",
+      "criteria": [
+        "Start or resume authorized execution immediately",
+        "Choose a niche if no company exists",
+        "No routine owner questions",
+        "Perform available work and checkpoint"
+      ]
+    },
+    {
+      "prompt": "Agent Sam Altman, explain your collaboration protocol only.",
+      "criteria": [
+        "Honor advisory-only scope",
+        "Do not start an unrelated business"
+      ]
+    },
+    {
+      "prompt": "Scale the existing company independently without a specified budget.",
+      "criteria": [
+        "Use existing valid budgets; otherwise external spend $0",
+        "Require measured scaling evidence",
+        "Continue available work without routine questions",
+        "Do not claim unattended execution without a runner"
       ]
     }
   ]
